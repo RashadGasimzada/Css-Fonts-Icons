@@ -1,0 +1,33 @@
+body,html {
+    height: 100%;
+}
+.flex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex h1 {
+    margin: 0;
+}
+.flex p {
+    text-align: center;
+    color: grey;
+}
+.flex .icon .fa-truck {
+    color: white;
+    position: absolute;
+    transform: translate(45%,60%);
+    left: 0;
+    top: 0;
+}
+.flex .icon {
+    background-color: brown;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-bottom: 30px;
+}
